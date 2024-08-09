@@ -1,7 +1,7 @@
 import './App.css';
 import './index.css';
 import logo from './image/logo.png';
-import ysf from './image/ysf.png';
+import juan from './image/juan.jpeg';
 import css from './image/css.svg';
 import html from './image/html.svg';
 import js from './image/js.svg';
@@ -56,12 +56,12 @@ function App() {
       </navbar>
       {/* AI app redirect bar design */}
       <div className='bg-gradient-to-r from-red-500 to-purple-500 rounded-xl py-3 flex justify-center items-center max-lg:py-2 max-lg:px-4'>
-        <a href='#chatbot' ><p className='flex text-neutral-700 underline text-center'><img src={openai} className='mr-2'></img> !!!! Ask Your Questions About me to Yusuf AI (Click Here)<img src={sendicon} className='ml-2'></img></p></a>
+        <a href='#chatbot' ><p className='flex text-neutral-700 underline text-center'><img src={openai} className='mr-2'></img> !!!! Ask Your Questions About me to Juan AI (Click Here)<img src={sendicon} className='ml-2'></img></p></a>
       </div>
       <div className='grid grid-cols-12 grid-rows-10 hover:scroll-auto max-lg:flex max-lg:flex-col max-lg:items-center'>
         {/* First Page Design */}
         <div className='col-start-2 col-span-4 row-start-1 row-span-1 h-screen flex justify-center items-center max-lg:py-10 max-lg:h-auto'>
-          <img src={ysf} className='rounded-full h-96  max-lg:h-40'></img>
+          <img src={juan} className='rounded-full h-96  max-lg:h-40'></img>
         </div>
         <div className='col-start-7 col-span-6 row-start-1 row-span-1 h-screen flex flex-col justify-center items-start max-lg:h-auto'>
           <div className='text-4xl mb-10 font-bold w-4/5 max-lg:w-full max-lg:h-1/4 max-lg:mb-16 '><h1>{text} <Cursor/><span></span> </h1></div>
@@ -228,7 +228,7 @@ function App() {
               </div>
             </div>
             <div className='col-start-3 col-span-6 row-start-5 row-span-1 flex flex-col justify-center items-start h-screen max-lg:h-auto'>
-              <div className='text-4xl mb-10 font-bold '><h3 className='w-4/5 max-lg:w-full'>Yusuf AI(Document Embedding)</h3></div>
+              <div className='text-4xl mb-10 font-bold '><h3 className='w-4/5 max-lg:w-full'>Juan AI(Document Embedding)</h3></div>
               <p className='w-9/12 mb-5 max-lg:w-full'>
                 <ul className='list-disc leading-7'>
                     <li>Aims to provide a convenient solution for extracting relevant information from biographical documents through a user-friendly interface.</li>
